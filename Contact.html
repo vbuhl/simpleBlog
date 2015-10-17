@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Contact</title>
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+
+    <header>
+        <div id="logo"><a href="Index.html"><img src="graphics/logo.png" /></a></div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a class="active" href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contactText">
+            <p>
+                Fill out the below contact form.
+                
+                <br />
+                I will try to answer your request within 24 hours.
+               
+            </p>
+        </div>
+        <div>
+            <form action="Contact.html" method="get" accept-charset="utf-8">
+                <div class="contactform">
+                    <input type="text" name="firstname" id="firstname" required placeholder="firstname" />
+                </div>
+                <div class="contactform">
+                    <input type="text" name="lastname" id="lastname" placeholder="lastname" />
+                </div>
+                <div class="contactform">
+                    <input type="email" name="email" id="email" placeholder="email" required />
+                </div>
+                <div class="contactform">
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="message" required></textarea>
+                </div>
+                <div class="contactform">
+                    <input type="submit" name="submitButton" value="Submit" />
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p> &copy; Vicki Buhl | Aarhus V |<a href="mailto:vicki@buhl-j.dk"> vicki@buhl-j.dk</a></p>
+    </footer>
+</body>
+</html>
